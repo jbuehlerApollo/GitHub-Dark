@@ -5192,3 +5192,208 @@
   }
   /* Literal.Number.Integer.Long */
 }
+
+
+/* ----- Custom Styles ----- */
+.new-discussion-timeline,
+.js-sidenav-container-pjax,
+.repohead-details-container {
+    width: 95%;
+    max-width: none;
+}
+
+.discussion-timeline {
+    width: calc(90% - 200px);
+}
+
+.timeline-comment-wrapper {
+    max-width: none;
+    width: 100%;
+}
+
+.gh-header {
+    background-color: transparent;
+}
+
+.zhc-issue-card__connected-pull-request {
+    border-color: #3a3a3a;
+    background-color: #3e3e3e;
+}
+
+.zhc-issue-card__connected-pull-request > .zhc-issue-card__header > .zhc-issue-card__section > .zhc-issue-card__section__content > .zhc-issue-card__heading > .zhc-issue-card__issue-title,
+.zhc-issue-card__issue-title {
+    color: #c5c5c5;
+}
+
+.zhc-issue-card__actions__btn {
+    background-color: #20490f;
+}
+
+.zhc-issue-card__epic-filter__btn {
+    background-color: #3E4B9E;
+    color: white;
+}
+
+.zhc-modal__body {
+    background-color: #202020;
+}
+
+.zhc-modal__header {
+    background-color: #191919;
+}
+
+.zhu-text-important,
+.zhc-sidebar-active-pipeline__name {
+    color: white;
+}
+
+.zhc-menu-container__modal-content {
+    padding: 11px 11px;
+    border-radius: 4px;
+}
+
+.zhc-edit-comment__preview {
+    background-color: rgb(24, 24, 24);
+    border-color: rgb(101, 101, 101);
+}
+
+.zhc-btn--has-text {
+    background-color: #474747;
+    border-color: #878787;
+}
+
+.zhc-epic-list,
+.zhc-dependency {
+    background-color: #0a0a0a;
+    border-color: #484848;
+}
+
+.post-merge-message > .btn,
+.new-pull-request-btn {
+    background: #c36b00 !important;
+    color: #fff !important;
+}
+
+.post-merge-message > .btn:hover {
+    background: #dd8112 !important;
+}
+
+.zhc-pipeline--add-placeholder {
+    width: 169px !important;
+}
+
+.zhc-report-tabs,
+.zhc-report-tabs > nav,
+.zhc-report-tabs > div,
+.zhc-report-tabs__filters {
+    background-color: #404040;
+    border-color: #0776a5;
+    color: white;
+}
+
+.zhc-report-tabs__nav .zhc-report-tabs__nav__item--active {
+    color: white;
+    border-color: #2f0;
+}
+
+.zhc-workspace-header__badge {
+    background-color: #12a3dd;
+    background-color: rgb(77, 78, 153);
+    ;
+    color: #c3c3c3;
+}
+
+.zhc-topbar {
+    background-color: #111111;
+    border-color: #595959;
+}
+
+.zhc-markdown,
+.zhc-issue-description__title,
+.zhc-add-comment__username {
+    color: white;
+}
+
+.zhc-issue-meta__username {
+    color: #00a6ff;
+}
+
+.zhc-add-comment {
+    background-color: #202020;
+    border-color: #4e4e4e;
+    color: white;
+}
+
+.zhc-edit-issue__title-input {
+    padding: 2px 9px;
+}
+
+.zhc-issue-description__header {
+    border: 1px solid #00a6ff;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 20px 0;
+}
+
+.zhc-markdown-block > pre {
+    background-color: #181818 !important;
+}
+
+.zhc-edit-issue__description > .zhc-edit-comment > .zhc-tabs > .zhc-tabs__panels > .zhc-tabs__panel > div > .dropzone > .zhc-edit-comment__textarea {
+    min-height: 500px;
+}
+
+.zhc-pr-issue-connector {
+    background-color: #050505;
+    border-color: #6d6d6d;
+}
+
+.zhc-modal__header,
+.zhc-issue-meta,
+.zhc-sidebar-selector {
+    border-color: #6d6d6d !important;
+}
+
+.zhc-issue-description__content {
+    padding: 10px;
+    border: 1px solid #6d6d6d;
+}
+
+.zhc-tabs--lined-bottom .zhc-tabs__nav-item {
+    border: 1px solid white;
+}
+
+.zhc-comment {
+    background-color: #181818;
+    border: 1px solid #6d6d6d;
+}
+
+.zhc-comment__username {
+    color: #bbb;
+}
+
+.zhc-issue-page {
+    background-color: #141414;
+    padding: 18px;
+}
+
+#js-issues-search {
+    width: 600px;
+}
+
+.token.operator {
+    background-color: black;
+}
+
+div.zhc-issue-cards:hover::-webkit-scrollbar {
+    width: 30px !important;
+}
+
+.zhu-panel {
+    background-color: #212121;
+}
+
+.zhc-milestone-panel__title {
+    color: white;
+}
